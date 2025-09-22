@@ -17,15 +17,14 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Match your local version
+          ruby-version: '3.1'
 
-      - name: Install dependencies
+      - name: Install Fastlane
         run: |
-          gem install bundler
-          bundle install || gem install fastlane
+          gem install fastlane
 
       - name: Run Tests
-        run: bundle exec fastlane run_tests
+        run: fastlane run_tests
 
-      - name: Build App
-        run: bundle exec fastlane build_app_dev
+      - name: Build for Simulator
+        run: fastlane build_app_dev
