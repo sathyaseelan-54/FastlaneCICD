@@ -34,14 +34,19 @@ end
   ##########################################
 desc "Build the app for simulator (no signing required)"
 lane :build_app_dev do
-  sh <<-CMD
-    xcodebuild clean build \
-      -project FastlaneCICD/FastlaneCICD.xcodeproj \
-      -scheme FastlaneCICD \
-      -sdk iphonesimulator \
-      -configuration Debug \
-      -derivedDataPath build
-  CMD
+Dir.chdir(File.expand_path("../", __dir__))
+  sh <<~CMD
+      xcodebuild clean build \
+        -workspace FastlaneCICD.xcworkspace \
+        -scheme FastlaneCICD \
+        -sdk iphonesimulator18.4 \
+        -configuration Debug \
+         EXCLUDED_ARCHS=arm64
+
+      xcrun simctl boot "iPhone 16"
+      xcrun simctl install booted build/Build/Products/Debug-iphonesimulator18.4/FastlaneCICD.app
+      xcrun simctl launch booted com.fastlanecicd.FastlaneCICD
+    CMD
 
   UI.message("✅ Simulator build completed! App is at build/Build/Products/Debug-iphonesimulator/FastlaneCICD.app")
 end

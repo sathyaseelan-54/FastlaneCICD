@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'FastlaneCICD' in project 'FastlaneCICD'
+➜ Implicit dependency on target 'Pods-FastlaneCICD' in project 'Pods' via file 'Pods_FastlaneCICD.framework' in build phase 'Link Binary'
+Target 'Pods-FastlaneCICD' in project 'Pods' (no dependencies)

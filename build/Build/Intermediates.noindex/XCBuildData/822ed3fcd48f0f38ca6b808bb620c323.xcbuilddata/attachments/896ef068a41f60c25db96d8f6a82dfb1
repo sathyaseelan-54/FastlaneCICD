@@ -1,0 +1,78 @@
+{
+  "" : {
+    "diagnostics" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICD-master.dia",
+    "emit-module-dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICD-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICD-master-emit-module.dia",
+    "swift-dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICD-master.swiftdeps"
+  },
+  "/Users/sathya/Documents/FastlaneCICD/FastlaneCICD/ContentView.swift" : {
+    "const-values" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/ContentView.d",
+    "diagnostics" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/ContentView.dia",
+    "index-unit-output-path" : "/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/ContentView.o",
+    "swift-dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/ContentView~partial.swiftmodule"
+  },
+  "/Users/sathya/Documents/FastlaneCICD/FastlaneCICD/FastlaneCICDApp.swift" : {
+    "const-values" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICDApp.swiftconstvalues",
+    "dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICDApp.d",
+    "diagnostics" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICDApp.dia",
+    "index-unit-output-path" : "/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICDApp.o",
+    "llvm-bc" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICDApp.bc",
+    "object" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICDApp.o",
+    "swift-dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICDApp.swiftdeps",
+    "swiftmodule" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICDApp~partial.swiftmodule"
+  },
+  "/Users/sathya/Documents/FastlaneCICD/FastlaneCICD/Persistence.swift" : {
+    "const-values" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Persistence.swiftconstvalues",
+    "dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Persistence.d",
+    "diagnostics" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Persistence.dia",
+    "index-unit-output-path" : "/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Persistence.o",
+    "llvm-bc" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Persistence.bc",
+    "object" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Persistence.o",
+    "swift-dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Persistence.swiftdeps",
+    "swiftmodule" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Persistence~partial.swiftmodule"
+  },
+  "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/DerivedSources/CoreDataGenerated/FastlaneCICD/FastlaneCICD+CoreDataModel.swift" : {
+    "const-values" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICD+CoreDataModel.swiftconstvalues",
+    "dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICD+CoreDataModel.d",
+    "diagnostics" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICD+CoreDataModel.dia",
+    "index-unit-output-path" : "/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICD+CoreDataModel.o",
+    "llvm-bc" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICD+CoreDataModel.bc",
+    "object" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICD+CoreDataModel.o",
+    "swift-dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICD+CoreDataModel.swiftdeps",
+    "swiftmodule" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/FastlaneCICD+CoreDataModel~partial.swiftmodule"
+  },
+  "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/DerivedSources/CoreDataGenerated/FastlaneCICD/Item+CoreDataClass.swift" : {
+    "const-values" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataClass.swiftconstvalues",
+    "dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataClass.d",
+    "diagnostics" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataClass.dia",
+    "index-unit-output-path" : "/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataClass.o",
+    "llvm-bc" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataClass.bc",
+    "object" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataClass.o",
+    "swift-dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataClass.swiftdeps",
+    "swiftmodule" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataClass~partial.swiftmodule"
+  },
+  "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/DerivedSources/CoreDataGenerated/FastlaneCICD/Item+CoreDataProperties.swift" : {
+    "const-values" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataProperties.swiftconstvalues",
+    "dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataProperties.d",
+    "diagnostics" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataProperties.dia",
+    "index-unit-output-path" : "/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataProperties.o",
+    "llvm-bc" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataProperties.bc",
+    "object" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataProperties.o",
+    "swift-dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataProperties.swiftdeps",
+    "swiftmodule" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/Item+CoreDataProperties~partial.swiftmodule"
+  },
+  "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/sathya/Documents/FastlaneCICD/build/Build/Intermediates.noindex/FastlaneCICD.build/Debug-iphonesimulator/FastlaneCICD.build/Objects-normal/x86_64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}
