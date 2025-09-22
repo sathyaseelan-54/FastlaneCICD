@@ -1,0 +1,6 @@
+framework module Pods_FastlaneCICDTests {
+  umbrella header "Pods-FastlaneCICDTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

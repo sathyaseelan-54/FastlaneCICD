@@ -1,0 +1,49 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+##########################################
+  # Lane 1: Run Unit/UI Tests
+  ##########################################
+  desc "Description of what the lane does"
+  lane :run_tests do
+
+   scan(
+	scheme: "FastlaneCICD",
+	devices: ["iPhone 16 Plus"],
+	clean: true
+	)
+end
+
+  ##########################################
+  # Lane 2: Build App (Development build)
+  ##########################################
+desc "Build the app for simulator (no signing required)"
+lane :build_app_dev do
+  sh <<-CMD
+    xcodebuild clean build \
+      -project FastlaneCICD/FastlaneCICD.xcodeproj \
+      -scheme FastlaneCICD \
+      -sdk iphonesimulator \
+      -configuration Debug \
+      -derivedDataPath build
+  CMD
+
+  UI.message("✅ Simulator build completed! App is at build/Build/Products/Debug-iphonesimulator/FastlaneCICD.app")
+end
+end
+

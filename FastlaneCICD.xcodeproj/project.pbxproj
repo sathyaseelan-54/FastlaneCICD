@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0B8A16245D44DF2A71032DCD /* Pods_FastlaneCICD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490C6BADD1915512D32D9AEE /* Pods_FastlaneCICD.framework */; };
+		8A64D8FADA98B7B00B08D554 /* Pods_FastlaneCICD_FastlaneCICDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9042D033D0CA964EE8215D4 /* Pods_FastlaneCICD_FastlaneCICDUITests.framework */; };
+		CAD6E32A187149FBF7C2B412 /* Pods_FastlaneCICDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E479E94285240EB659642E01 /* Pods_FastlaneCICDTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5C5195BB2E80DB11009BAF05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,24 +30,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10725530F4292B91A34D4D8A /* Pods-FastlaneCICD-FastlaneCICDUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneCICD-FastlaneCICDUITests.release.xcconfig"; path = "Target Support Files/Pods-FastlaneCICD-FastlaneCICDUITests/Pods-FastlaneCICD-FastlaneCICDUITests.release.xcconfig"; sourceTree = "<group>"; };
+		490C6BADD1915512D32D9AEE /* Pods_FastlaneCICD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastlaneCICD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53868492A1D7AE57AD4561DE /* Pods-FastlaneCICD-FastlaneCICDUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneCICD-FastlaneCICDUITests.debug.xcconfig"; path = "Target Support Files/Pods-FastlaneCICD-FastlaneCICDUITests/Pods-FastlaneCICD-FastlaneCICDUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C5195A82E80DB0F009BAF05 /* FastlaneCICD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastlaneCICD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5195BA2E80DB11009BAF05 /* FastlaneCICDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlaneCICDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C5195C42E80DB11009BAF05 /* FastlaneCICDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlaneCICDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66EB694F028FF32A4E97ABC3 /* Pods-FastlaneCICDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneCICDTests.release.xcconfig"; path = "Target Support Files/Pods-FastlaneCICDTests/Pods-FastlaneCICDTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E50000384C76864245A3655 /* Pods-FastlaneCICD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneCICD.release.xcconfig"; path = "Target Support Files/Pods-FastlaneCICD/Pods-FastlaneCICD.release.xcconfig"; sourceTree = "<group>"; };
+		C88BE27F1D0D896CFD28621F /* Pods-FastlaneCICDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneCICDTests.debug.xcconfig"; path = "Target Support Files/Pods-FastlaneCICDTests/Pods-FastlaneCICDTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9042D033D0CA964EE8215D4 /* Pods_FastlaneCICD_FastlaneCICDUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastlaneCICD_FastlaneCICDUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E479E94285240EB659642E01 /* Pods_FastlaneCICDTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastlaneCICDTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBF48BC482B5650D3AA973C /* Pods-FastlaneCICD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneCICD.debug.xcconfig"; path = "Target Support Files/Pods-FastlaneCICD/Pods-FastlaneCICD.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5C5195AA2E80DB0F009BAF05 /* FastlaneCICD */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = FastlaneCICD;
 			sourceTree = "<group>";
 		};
 		5C5195BD2E80DB11009BAF05 /* FastlaneCICDTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = FastlaneCICDTests;
 			sourceTree = "<group>";
 		};
 		5C5195C72E80DB11009BAF05 /* FastlaneCICDUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = FastlaneCICDUITests;
 			sourceTree = "<group>";
 		};
@@ -52,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B8A16245D44DF2A71032DCD /* Pods_FastlaneCICD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAD6E32A187149FBF7C2B412 /* Pods_FastlaneCICDTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +89,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A64D8FADA98B7B00B08D554 /* Pods_FastlaneCICD_FastlaneCICDUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		150CC4D3E7842F3B70949ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				490C6BADD1915512D32D9AEE /* Pods_FastlaneCICD.framework */,
+				D9042D033D0CA964EE8215D4 /* Pods_FastlaneCICD_FastlaneCICDUITests.framework */,
+				E479E94285240EB659642E01 /* Pods_FastlaneCICDTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5C51959F2E80DB0F009BAF05 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +113,8 @@
 				5C5195BD2E80DB11009BAF05 /* FastlaneCICDTests */,
 				5C5195C72E80DB11009BAF05 /* FastlaneCICDUITests */,
 				5C5195A92E80DB0F009BAF05 /* Products */,
+				9549C84BF6D14A2A4BB6E28E /* Pods */,
+				150CC4D3E7842F3B70949ADD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +128,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9549C84BF6D14A2A4BB6E28E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFBF48BC482B5650D3AA973C /* Pods-FastlaneCICD.debug.xcconfig */,
+				7E50000384C76864245A3655 /* Pods-FastlaneCICD.release.xcconfig */,
+				53868492A1D7AE57AD4561DE /* Pods-FastlaneCICD-FastlaneCICDUITests.debug.xcconfig */,
+				10725530F4292B91A34D4D8A /* Pods-FastlaneCICD-FastlaneCICDUITests.release.xcconfig */,
+				C88BE27F1D0D896CFD28621F /* Pods-FastlaneCICDTests.debug.xcconfig */,
+				66EB694F028FF32A4E97ABC3 /* Pods-FastlaneCICDTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C5195CE2E80DB11009BAF05 /* Build configuration list for PBXNativeTarget "FastlaneCICD" */;
 			buildPhases = (
+				566C5FB720E0C4C5661312A8 /* [CP] Check Pods Manifest.lock */,
 				5C5195A42E80DB0F009BAF05 /* Sources */,
 				5C5195A52E80DB0F009BAF05 /* Frameworks */,
 				5C5195A62E80DB0F009BAF05 /* Resources */,
@@ -111,8 +162,6 @@
 				5C5195AA2E80DB0F009BAF05 /* FastlaneCICD */,
 			);
 			name = FastlaneCICD;
-			packageProductDependencies = (
-			);
 			productName = FastlaneCICD;
 			productReference = 5C5195A82E80DB0F009BAF05 /* FastlaneCICD.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +170,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C5195D12E80DB11009BAF05 /* Build configuration list for PBXNativeTarget "FastlaneCICDTests" */;
 			buildPhases = (
+				048C78DCE159CB4090C633B5 /* [CP] Check Pods Manifest.lock */,
 				5C5195B62E80DB11009BAF05 /* Sources */,
 				5C5195B72E80DB11009BAF05 /* Frameworks */,
 				5C5195B82E80DB11009BAF05 /* Resources */,
@@ -134,8 +184,6 @@
 				5C5195BD2E80DB11009BAF05 /* FastlaneCICDTests */,
 			);
 			name = FastlaneCICDTests;
-			packageProductDependencies = (
-			);
 			productName = FastlaneCICDTests;
 			productReference = 5C5195BA2E80DB11009BAF05 /* FastlaneCICDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C5195D42E80DB11009BAF05 /* Build configuration list for PBXNativeTarget "FastlaneCICDUITests" */;
 			buildPhases = (
+				B89C93FB9C01A00CE00A9B4B /* [CP] Check Pods Manifest.lock */,
 				5C5195C02E80DB11009BAF05 /* Sources */,
 				5C5195C12E80DB11009BAF05 /* Frameworks */,
 				5C5195C22E80DB11009BAF05 /* Resources */,
@@ -157,8 +206,6 @@
 				5C5195C72E80DB11009BAF05 /* FastlaneCICDUITests */,
 			);
 			name = FastlaneCICDUITests;
-			packageProductDependencies = (
-			);
 			productName = FastlaneCICDUITests;
 			productReference = 5C5195C42E80DB11009BAF05 /* FastlaneCICDUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +277,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		048C78DCE159CB4090C633B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastlaneCICDTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		566C5FB720E0C4C5661312A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastlaneCICD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B89C93FB9C01A00CE00A9B4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FastlaneCICD-FastlaneCICDUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5C5195A42E80DB0F009BAF05 /* Sources */ = {
@@ -392,6 +508,7 @@
 		};
 		5C5195CF2E80DB11009BAF05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFBF48BC482B5650D3AA973C /* Pods-FastlaneCICD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -420,6 +537,7 @@
 		};
 		5C5195D02E80DB11009BAF05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E50000384C76864245A3655 /* Pods-FastlaneCICD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +566,7 @@
 		};
 		5C5195D22E80DB11009BAF05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88BE27F1D0D896CFD28621F /* Pods-FastlaneCICDTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +586,7 @@
 		};
 		5C5195D32E80DB11009BAF05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EB694F028FF32A4E97ABC3 /* Pods-FastlaneCICDTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +606,7 @@
 		};
 		5C5195D52E80DB11009BAF05 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53868492A1D7AE57AD4561DE /* Pods-FastlaneCICD-FastlaneCICDUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +624,7 @@
 		};
 		5C5195D62E80DB11009BAF05 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10725530F4292B91A34D4D8A /* Pods-FastlaneCICD-FastlaneCICDUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
